@@ -1,6 +1,6 @@
 const Portfolio = () => {
     return (
-        <div>Portfolio</div>
+        <div>Kommer snart...</div>
     )
 }
 

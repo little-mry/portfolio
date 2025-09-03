@@ -13,6 +13,14 @@
   </head>
   <body>
     <div id="root"></div>
+    
+    <form name="contact" data-netlify="true" data-netlify-honeypot="company" hidden>
+    <input type="hidden" name="form-name" value="contact" />
+    <input name="subject" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
+    <input name="company" /> <!-- honeypot -->
+  </form>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
