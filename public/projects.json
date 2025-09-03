@@ -1,0 +1,33 @@
+[
+  {
+    "title": "The Crop Project (repo)",
+    "image": "/portfolio_dark_4.png",
+    "description": "Pågående fullstack-projekt. Länk går till repo.",
+    "tags": ["TypeScript", "React", "Tailwind","Node", "MongoDB", "JWT"],
+    "repoUrl": "https://github.com/little-mry/the-crop-project"
+  },
+  {
+    "title": "Yum Yum Gimme Sum",
+    "image": "/portfolio_dark_2.png",
+    "description": "Meny + kundkorg, mobilvy. Skolprojekt",
+    "tags": ["SASS", "TypeScript", "React", "Redux"],
+    "liveUrl": "https://yumyum-littlemry.netlify.app/",
+    "repoUrl": "https://github.com/little-mry/Maria-ramverk-exam"
+  },
+  {
+    "title": "Bikkjen the Tamagotchi",
+    "image": "/portfolio_dark_1.png",
+    "description": "Litet husdjursspel med stat-hantering och tidsbaserade events.",
+    "tags": ["HTML/CSS", "JavaScript", "localStorage"],
+    "liveUrl": "https://bikkjen-tamagotchi.netlify.app/",
+    "repoUrl": "https://github.com/little-mry/Tamagotchi"
+  },
+  {
+    "title": "Airbean",
+    "image": "/portfolio_dark_3.png",
+    "description": "Animerad meny, mobilvy. Skolprojekt",
+    "tags": ["SASS", "TypeScript", "React"],
+    "liveUrl": "https://airbean-littlemry.netlify.app/",
+    "repoUrl": "https://github.com/little-mry/rosa-f-ret-frontend-examination"
+  }
+]

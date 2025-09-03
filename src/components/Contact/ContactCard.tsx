@@ -8,8 +8,8 @@ const ContactCard = () => {
   return (
     <section className="flex flex-col pt-10">
       <a
-        href="mailto:maria.kjellholm@gmail.com"
-        aria-label="Maila mig"
+        href="tel:0762248434"
+        aria-label="Ring mig"
         className="inline-flex items-center justify-start  text-2xl gap-2"
       >
         <FontAwesomeIcon
