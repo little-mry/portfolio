@@ -1,11 +1,37 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faSquarePhone,
+  faSquareEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
+
 const ContactCard = () => {
   return (
-    <p className="text-sm text-muted-foreground mt-2">
-      {/* Justera kontaktuppgifter om du vill dölja någon del på webben */}
-      <span className="block">Tel: 0762 24 84 34</span>
-      <span className="block">E‑post: maria.kjellholm@gmail.com</span>
-    </p>
+    <section className="flex flex-col pt-10">
+      <a
+        href="mailto:maria.kjellholm@gmail.com"
+        aria-label="Maila mig"
+        className="inline-flex items-center justify-start  text-2xl gap-2"
+      >
+        <FontAwesomeIcon
+          className="text-zinc-900 dark:text-zinc-400"
+          icon={faSquarePhone}
+        />
+        0762248434
+      </a>
+
+      <a
+        href="mailto:maria.kjellholm@gmail.com"
+        aria-label="Maila mig"
+        className="inline-flex items-center justify-start text-2xl gap-2"
+      >
+        <FontAwesomeIcon
+          className="text-zinc-900 dark:text-zinc-400"
+          icon={faSquareEnvelope}
+        />
+        maria.kjellholm@gmail.com
+      </a>
+    </section>
   );
 };
 
-export default ContactCard
+export default ContactCard;

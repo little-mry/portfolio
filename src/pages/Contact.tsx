@@ -58,15 +58,14 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col justify-between md:flex-row">
-      
-      <section className="flex-1 mx-auto max-w-xl p-6">
+    <div className="flex flex-col md:flex-row gap-10 items-start max-w-5xl mx-auto px-4 py-8">
+      <section className="w-full  md:max-w-2xl p-6">
         <h1 className="text-3xl font-bold mb-2">Kontakt</h1>
 
         <form
           name="contact"
           onSubmit={handleSubmit(onSubmit)}
-          className="space-y-4"
+          className="flex flex-col space-y-4"
         >
           <article className="hidden">
             <label htmlFor="company">Företag</label>
@@ -127,7 +126,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={status === "loading"}
-            className="rounded-2xl px-5 py-3 font-medium shadow hover:shadow-md border bg-black text-white disabled:opacity-60"
+            className="self-center rounded-2xl px-5 py-3 font-medium shadow hover:shadow-md border bg-black text-white disabled:opacity-60"
           >
             {status === "loading" ? "Skickar…" : "Skicka meddelande"}
           </button>
