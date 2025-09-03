@@ -29,5 +29,12 @@
     "tags": ["SASS", "TypeScript", "React"],
     "liveUrl": "https://airbean-littlemry.netlify.app/",
     "repoUrl": "https://github.com/little-mry/rosa-f-ret-frontend-examination"
+  },
+  {
+    "title": "Portfolio",
+    "image": "/portfolio_dark_5.png",
+    "description": "Min portfolio",
+    "tags": ["TypeScript", "Tailwind", "React"],
+    "repoUrl": "https://github.com/little-mry/portfolio"
   }
 ]

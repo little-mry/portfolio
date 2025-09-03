@@ -1,0 +1,26 @@
+{
+  "language": [
+    "Svenska – modersmål",
+    "Engelska – flytande",
+    "Teckenspråk – grundläggande"
+  ],
+  "programming": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Vite",
+    "Redux",
+    "Node.js",
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "PostgreSQL",
+    "SASS",
+    "Tailwind",
+    "Git",
+    "AWS",
+    "CI/CD"
+  ],
+  "journalsystem": ["Take Care", "Parasol"],
+  "license": ["B-körkort"]
+}
