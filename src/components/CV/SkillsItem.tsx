@@ -1,4 +1,3 @@
-import type { Skills as SkillsType } from "../../types/skills";
 import skills from "../../../public/skills.json"
 
 const SkillItem = () => {
