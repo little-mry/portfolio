@@ -6,7 +6,7 @@ const Hero = () => {
       <img
         src={HeroImg}
         alt="Image of Maria, a person with long blond hair and glasses, smiling"
-        className="block mx-auto w-40 sm:w-72 md:w-80 lg:w-90 h-auto"
+        className="block mx-auto w-72 md:w-86 lg:w-98 h-auto"
       />
     </section>
   );
