@@ -7,7 +7,7 @@ const About = () => {
         <h3 className="font-bold text-2xl ">Lite om mig</h3>
         <p className="text-md font-semibold leading-relaxed mt-2">
           Jag är tidigare utbildad logoped som nu bytt inriktning i livet, och
-          studerar därför till Javascriptutvecklare. Det är spännande att få
+          studerar till Javascriptutvecklare. Det är spännande att få
           lösa problem som kan underlätta och göra livet bättre för människor
           och världen! Jag vill utveckla digitala verktyg som underlättar för
           användaren- och som är tillgängliga för alla.{" "}
@@ -20,14 +20,14 @@ const About = () => {
           stödjande roll - beroende på vilka behov som finns.{" "}
         </p>
         <p className="text-md font-md leading-relaxed mt-2">
-          Jag bor i Gnesta med min hund Ebbot. Även om jag bor lite off-grid är
+          Jag bor utanför Gnesta med min hund Ebbot. Även om jag bor lite off-grid är
           jag engagerad i min omvärld - jag har ett stort intresse av cirkulär
           ekonomi, klimatfrågor, djurrätt och mänskliga rättigheter.
         </p>
         <p className="text-md font-md leading-relaxed mt-2">
           På min fritid påtar jag i trädgården, håller på med något av mina
-          hundratals diy-projekt eller varndar planlöst runt i skogen (och
-          hittar förhoppningsvid lite svamp på turen).
+          hundratals diy-projekt eller vandrar planlöst runt i skogen (och
+          hittar förhoppningsvis lite svamp på turen).
         </p>
       </article>
       <article className=" place-self-center">
