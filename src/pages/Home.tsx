@@ -15,7 +15,7 @@ const Home = () => {
     >
       <article className="justify-self-start  place-self-center max-w-prose">
         <h3 className="font-bold text-2xl md:text-3xl">Här har ni mig!</h3>
-        <p className="text-lg leading-relaxed mt-2">
+        <p className="text-md leading-relaxed mt-2">
           Jag är en blivande Javascriptutvecklare med en stark känsla för
           användarbehov, kommunikation och gruppdynamik. Med en bakgrund som
           logoped och starkt engagemang för vår omvärld, brinner jag för att

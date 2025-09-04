@@ -10,7 +10,7 @@ const ContactCard = () => {
       <a
         href="tel:0762248434"
         aria-label="Ring mig"
-        className="inline-flex items-center justify-start  text-2xl gap-2"
+        className="inline-flex items-center justify-start  text-xl gap-2"
       >
         <FontAwesomeIcon
           className="text-zinc-900 dark:text-zinc-400"
@@ -22,7 +22,7 @@ const ContactCard = () => {
       <a
         href="mailto:maria.kjellholm@gmail.com"
         aria-label="Maila mig"
-        className="inline-flex items-center justify-start text-2xl gap-2"
+        className="inline-flex items-center justify-start text-xl gap-2"
       >
         <FontAwesomeIcon
           className="text-zinc-900 dark:text-zinc-400"

@@ -9,7 +9,7 @@ const PortfolioItem = ({
   repoUrl,
 }: PortfolioItemType) => {
   return (
-    <article className="group rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-black/30 backdrop-blur p-4 shadow-sm hover:shadow-md transition-shadow">
+    <article className="group flex flex-col rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-black/30 backdrop-blur p-4 shadow-sm hover:shadow-md transition-shadow">
       <div className="aspect-video w-full overflow-hidden rounded-xl bg-neutral-800">
         <img
           src={image}
@@ -19,7 +19,7 @@ const PortfolioItem = ({
         />
       </div>
       <header className="mt-4">
-        <h3 className="text-lg font-bold">{title}</h3>
+        <h3 className="text-xl font-bold">{title}</h3>
         {description && (
           <p className="mt-1 text-md font-medium text-black/70 dark:text-white/70">
             {description}
@@ -41,7 +41,7 @@ const PortfolioItem = ({
       )}
 
       {(liveUrl || repoUrl) && (
-        <div className="mt-4 flex gap-2 font-medium">
+        <div className="mt-auto pt-4 flex gap-2 font-medium">
           {liveUrl && (
             <a
               href={liveUrl}
