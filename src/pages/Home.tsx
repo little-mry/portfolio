@@ -13,7 +13,7 @@ const Home = () => {
     
     "
     >
-      <article className="justify-self-start  place-self-center max-w-prose">
+      <article className="justify-self-start place-self-center max-w-prose">
         <h3 className="font-bold text-2xl md:text-3xl">Här har ni mig!</h3>
         <p className="text-md leading-relaxed mt-2">
           Jag är en blivande Javascriptutvecklare med en stark känsla för
@@ -28,7 +28,7 @@ const Home = () => {
         <Hero />
       </article>
 
-      <article className="justify-self-center md:mt-10">
+      <article className="md:mt-10">
         <SkillsetDropdown
           title="Skill set"
           items={[
