@@ -10,10 +10,10 @@ const Home = () => {
     md:grid-cols-3
     max-w-6xl mx-auto
     px-4 py-8
-    
+    place-self-center
     "
     >
-      <article className="justify-self-start place-self-center max-w-prose">
+      <article className="justify-self-start place-self-start max-w-prose">
         <h3 className="font-bold text-2xl md:text-3xl">Här har ni mig!</h3>
         <p className="text-md leading-relaxed mt-2">
           Jag är en blivande Javascriptutvecklare med en stark känsla för

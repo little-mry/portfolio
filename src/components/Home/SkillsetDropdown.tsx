@@ -16,22 +16,26 @@ export default function SkillsetDropdown({ title, items }: Props) {
         type="button"
         onClick={() => setIsOpen((v) => !v)}
         aria-expanded={isOpen}
-        className="inline-flex items-center justify-between
+        className="inline-flex w-full items-center justify-between
           bg-transparent border-0 px-0 py-2 gap-2
-          font-bold text-3xl
           focus:outline-none 
           dark:focus:ring-zinc-600"
       >
-        <span className="font-bold text-2xl md:text-3xl">{title}</span>
+        <span className="font-bold text-2xl md:text-3xl leading-tight">{title}</span>
         <FontAwesomeIcon icon={isOpen ? faAngleUp : faAngleDown} />
       </button>
+        <div
+        className={`grid transition-all duration-300 ${
+          isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+        }`}
+      >
 
+      
       <div
-        className={`overflow-hidden transition-[max-height] duration-300
-          ${isOpen ? "max-h-96" : "max-h-0"}`}
+        className="overflow-hidden "
       >
         <ul
-          className="mt-2 list-none pl-0
+          className="pt-2 list-none pl-0
             grid grid-cols-3 md:grid-cols-2
             gap-x-5 gap-y-0.5
             text-lg leading-relaxed"
@@ -43,6 +47,7 @@ export default function SkillsetDropdown({ title, items }: Props) {
           ))}
         </ul>
       </div>
+    </div>
     </div>
   );
 }
