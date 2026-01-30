@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     document.body.style.overflow = isMenuOpen ? "hidden" : "";
@@ -14,8 +12,8 @@ const Nav = () => {
     };
   }, [isMenuOpen]);
 
-  const go = (to: string) => {
-    navigate(to);
+  const scrollTo = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     setIsMenuOpen(false);
   };
 
@@ -36,32 +34,29 @@ const Nav = () => {
       </div>
 
       <nav aria-label="Huvudmeny" className="hidden md:block">
-        <ul className="flex items-center gap-6">
+        <ul className="flex items-center gap-10">
           <li>
-            <button className="hover:underline" onClick={() => go("/")}>
-              Start
+            <button className="hover:underline" onClick={() => scrollTo("skillset")}>
+              Skillset 
             </button>
-          </li>
-          <li>
-            <button className="hover:underline" onClick={() => go("/about")}>
+            </li>
+            <li>
+            <button className="hover:underline" onClick={() => scrollTo("about")}>
               Om mig
             </button>
           </li>
           <li>
-            <button
-              className="hover:underline"
-              onClick={() => go("/portfolio")}
-            >
+            <button className="hover:underline" onClick={() => scrollTo("portfolio")}>
               Portfolio
             </button>
           </li>
           <li>
-            <button className="hover:underline" onClick={() => go("/CV")}>
+            <button className="hover:underline" onClick={() => scrollTo("cv")}>
               CV
             </button>
           </li>
           <li>
-            <button className="hover:underline" onClick={() => go("/contact")}>
+            <button className="hover:underline" onClick={() => scrollTo("contact")}>
               Kontakt
             </button>
           </li>
@@ -101,7 +96,7 @@ const Nav = () => {
               <li>
                 <button
                   className="w-full hover:underline py-1.5"
-                  onClick={() => go("/")}
+                  onClick={() => scrollTo("home")}
                 >
                   Hem
                 </button>
@@ -109,7 +104,7 @@ const Nav = () => {
               <li>
                 <button
                   className="w-full hover:underline py-1.5"
-                  onClick={() => go("/about")}
+                  onClick={() => scrollTo("about")}
                 >
                   Om mig
                 </button>
@@ -117,7 +112,7 @@ const Nav = () => {
               <li>
                 <button
                   className="w-full hover:underline py-1.5"
-                  onClick={() => go("/portfolio")}
+                  onClick={() => scrollTo("portfolio")}
                 >
                   Portfolio
                 </button>
@@ -125,7 +120,7 @@ const Nav = () => {
               <li>
                 <button
                   className="w-full hover:underline py-1.5"
-                  onClick={() => go("/CV")}
+                  onClick={() => scrollTo("cv")}
                 >
                   CV
                 </button>
@@ -133,7 +128,7 @@ const Nav = () => {
               <li>
                 <button
                   className="w-full hover:underline py-1.5"
-                  onClick={() => go("/contact")}
+                  onClick={() => scrollTo("contact")}
                 >
                   Kontakt
                 </button>

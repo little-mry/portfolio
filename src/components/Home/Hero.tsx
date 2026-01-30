@@ -1,9 +1,9 @@
-import HeroImg from "../../assets/maria-w-background.jpeg";
+import HeroImg from "../../assets/maria-thumbsup.png";
 
 const Hero = () => {
   return (
     <section className="w-full">
-      <div className="mx-auto w-40 lg:w-52 rounded-none p-[4px] bg-zinc-400 dark:bg-zinc-800 shadow-lg">
+      <div className="w-52 lg:w-80 rounded-none ">
         <img
           src={HeroImg}
           alt="Image of Maria, a person with long blond hair and glasses, smiling"
