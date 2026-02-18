@@ -1,6 +1,6 @@
-import work from "../../public/work.json";
-import education from "../../public/education.json";
-import volunteering from "../../public/nonprofit.json";
+import work from "../data/work.json";
+import education from "../data/education.json";
+import volunteering from "../data/nonprofit.json";
 
 import type { Work as WorkType } from "../types/work";
 import type { Education as EducationType } from "../types/education";

@@ -1,5 +1,5 @@
 import PortfolioItem from "../components/Portfolio/PortfolioItem";
-import projects from "../../public/projects.json";
+import projects from "../data/projects.json";
 import type { PortfolioItem as PortfolioItemType } from "../types/PortfolioItem";
 
 const Portfolio = () => {
