@@ -1,30 +1,35 @@
-import Hero from "../components/Home/Hero";
-/* import SkillsetDropdown from "../components/Home/SkillsetDropdown";
- */
+import HeroImg from "../assets/maria-thumbsup.png";
+
 const Home = () => {
   return (
     <section
       className="
       relative
-    flex flex-col md:flex-row
-    w-full
-    px-4 md:px-6
-    pt-4 md:pt-8
-    bg-slate-200
-    "
+      grid grid-cols-1 lg:grid-cols-3
+      items-center
+      w-full
+      gap-8 lg:gap-0
+      px-4 md:px-10
+      py-6 md:py-4
+      bg-slate-200
+      dark:bg-zinc-700 
+      "
     >
-      <article className="justify-self-start place-self-start max-w-prose">
-         <h1 className="text-5xl md:text-9xl text-center md:text-left">
+      <article className="">
+        <h1 className="text-[clamp(4rem,8vw,10rem)] text-center md:text-left">
           MARIA KJELLHOLM
         </h1>
-      
       </article>
 
-      <article className="self-end w-full max-w-md translate-y-6">
-        <Hero />
+      <article className="flex items-end self-end lg:lg:translate-y-[10%] max-w-xs mx-auto lg:max-w-xl lg:mx-auto">
+        <img
+          src={HeroImg}
+          alt="Image of Maria, a person with long blond hair and glasses, smiling"
+          className="rounded-md w-full h-auto block"
+        />
       </article>
 
-      <article className="max-w-prose">
+      <article className="">
         <h3 className="font-bold text-2xl md:text-3xl">Här har ni mig!</h3>
         <p className="text-md leading-relaxed mt-2">
           Jag är en blivande Javascriptutvecklare med en stark känsla för
@@ -33,27 +38,7 @@ const Home = () => {
           skapa digitala verktyg som är tillgängliga och kan göra skillnad på
           riktigt.{" "}
         </p>
-        </article>
-
-      {/*  <article className="md:mt-10">
-        <SkillsetDropdown
-          title="Skill set"
-          items={[
-            "Typescript",
-            "React",
-            "Node.js",
-            "Express",
-            "SQL",
-            "NoSQL",
-            "AWS",
-            "CI/CD",
-            "SASS",
-            "Tailwind",
-            "Git",
-            "Scrum",
-          ]}
-        />
-      </article> */}
+      </article>
     </section>
   );
 };

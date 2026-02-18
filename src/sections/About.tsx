@@ -4,7 +4,6 @@ const About = () => {
   return (
     <section className="flex flex-col md:flex-row justify-around gap-2">
       <article className="max-w-prose place-self-center">
-        <h3 className="font-bold text-2xl ">Lite om mig</h3>
         <p className="text-md font-semibold leading-relaxed mt-2">
           Jag är tidigare utbildad logoped som nu bytt inriktning i livet, och
           studerar till Javascriptutvecklare. Det är spännande att få

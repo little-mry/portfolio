@@ -7,19 +7,24 @@
   "programming": [
     "JavaScript",
     "TypeScript",
+    "HTML",
+    "CSS",
     "React",
-    "Vite",
     "Redux",
+    "SASS",
+    "Tailwind",
+    "Apollo Client",
     "Node.js",
     "Express",
     "RestAPI",
     "MongoDB",
     "PostgreSQL",
-    "SASS",
-    "Tailwind",
+    "DynamoDB",
     "Git",
+    "Github Actions",
     "AWS",
-    "CI/CD"
+    "GraphQL",
+    "Docker"
   ],
   "journalsystem": ["Take Care", "Parasol"],
   "license": ["B-körkort"]

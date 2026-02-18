@@ -1,7 +1,6 @@
 import Container from "./components/global/Container";
 import Header from "./components/global/Header";
 import Footer from "./components/global/Footer";
-import ThemeToggle from "./components/global/ThemeToggle";
 
 import Home from "./sections/Home";
 import About from "./sections/About";
@@ -27,12 +26,12 @@ function App() {
         <section id="skillset" className="scroll-mt-32 mt-16">
           <Skillset />
         </section>
-        <section id="about" className="scroll-mt-32 mt-16">
-          <About />
-        </section>
 
         <section id="portfolio" className="scroll-mt-32 mt-16">
           <Portfolio />
+        </section>
+        <section id="about" className="scroll-mt-32 mt-16">
+          <About />
         </section>
 
         <section id="cv" className="scroll-mt-32 mt-16">
