@@ -11,7 +11,7 @@ import Skillset from "./sections/Skillset";
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-sky-50 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-400">
+    <div className="min-h-screen flex flex-col text-zinc-900 dark:bg-zinc-900 dark:text-zinc-400">
       
       <Container as="header" className="pt-6 mt-10 md:mt-5">
         <Header />

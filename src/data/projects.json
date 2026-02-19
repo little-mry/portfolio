@@ -2,8 +2,8 @@
   {
     "title": "The Crop Project (repo)",
     "image": "/portfolio_dark_4.png",
-    "description": "Pågående fullstack-projekt. Länk går till repo.",
-    "tags": ["TypeScript", "React", "Tailwind","Node", "MongoDB", "JWT"],
+    "description": "Pågående fullstack projekt. Webbapp för att planera och följa upp odling över tid. Användare kan rita upp sin trädgård, planera och följa sin odling samt få vägledning kring växelbruk och växtkompatibilitet. Jag har arbetat med projektplanering, design i Figma, datamodell och projektarkitektur från grunden.",
+    "tags": ["TypeScript", "React", "Tailwind", "Node", "MongoDB", "JWT"],
     "repoUrl": "https://github.com/little-mry/the-crop-project"
   },
   {
@@ -16,25 +16,94 @@
   },
   {
     "title": "Bikkjen the Tamagotchi",
-    "image": "/portfolio_dark_1.png",
-    "description": "Litet husdjursspel med stat-hantering och tidsbaserade events.",
-    "tags": ["HTML/CSS", "JavaScript", "localStorage"],
+    "image": "/portfolio_bikkjen.png",
+    "description": "Ett interaktivt virtuellt husdjur med skapat med HTML, CSS och JavaScript. Husdjuret ska  matas, lekas med och sova. Målet är att hålla husdjuret nöjt och vid liv så länge som möjligt! Byggt med stat-hantering och tidsbaserade events.",
+    "tags": ["HTML", "CSS", "JavaScript", "localStorage"],
     "liveUrl": "https://bikkjen-tamagotchi.netlify.app/",
     "repoUrl": "https://github.com/little-mry/Tamagotchi"
   },
   {
     "title": "Airbean",
-    "image": "/portfolio_dark_3.png",
+    "image": "/portfolio_airbean-1.png",
     "description": "Animerad meny, mobilvy. Skolprojekt",
-    "tags": ["SASS", "TypeScript", "React"],
+    "tags": ["SASS", "TypeScript", "React", "JWT", "Swagger", "Joi"],
     "liveUrl": "https://airbean-littlemry.netlify.app/",
     "repoUrl": "https://github.com/little-mry/rosa-f-ret-frontend-examination"
   },
   {
     "title": "Portfolio",
-    "image": "/portfolio_dark_5.png",
+    "image": "/portfolio_portfolio.png",
     "description": "Min portfolio",
-    "tags": ["TypeScript", "Tailwind", "React"],
+    "tags": ["TypeScript", "Tailwind", "React", "i18n"],
     "repoUrl": "https://github.com/little-mry/portfolio"
+  },
+  {
+    "title": "Quiztopia",
+    "image": "/portfolio_quiztopia.png",
+    "description": "Serverless backend-API där användare kan skapa, spela och hantera quiz kopplade till geografiska platser. Jag implementerade JWT-autentisering med custom middleware, leaderboard-funktionalitet och AWS IAM-policy.",
+    "tags": [
+      "TypeScript",
+      "AWS Lambda",
+      "DynamoDB",
+      "Serverless Framework",
+      "Middy"
+    ],
+    "repoUrl": "https://github.com/little-mry/quiztopia-exam"
+  },
+  {
+    "title": "The Meetverse",
+    "image": "/portfolio_meetverse.png",
+    "description": "Arbetade med ett litet team i Scrum för att bygga en fullstack applikation där användare kan hitta, anmäla sig till och betygsätta meetups. Jag arbetade med frontend, backend och driftsättning.",
+    "tags": [
+      "TypeScript",
+      "React",
+      "Tailwind",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Docker",
+      "AWS S3",
+      "Github Actions",
+      "Render"
+    ],
+    "repoUrl": "https://github.com/little-mry/meetverse-FE"
+  },
+  {
+    "title": "Azomo",
+    "image": "/portfolio_azomo.png",
+    "description": "Molnbaserad läroplattform för företagsutbildning. Arbetat tillsammans med ett litet internationellt tech-team på Zocom för att underhålla funktioner i både frontend och backend.",
+    "tags": [
+      "TypeScript",
+      "React",
+      "SCSS",
+      "Apollo Client",
+      "GraphQL",
+      "AWS",
+      "S3",
+      "DynamoDB",
+      "Cognito",
+      "Github Actions"
+    ],
+    "repoUrl": "https://github.com/little-mry/meetverse-FE"
+  },
+  {
+    "title": "Rendere Visible",
+    "image": "/portfolio_winescraper.png",
+    "description": "Analys- och försäljningsverktyg för vindistributörer. Optimerar REST API-endpoints och PostgreSQL-queries för förbättrad prestanda. Containerisering via Docker och orkestrering med Kubernetes.",
+    "tags": [
+      "TypeScript",
+      "React",
+      "auth0",
+      "recharts",
+      "Tanstack",
+      "SCSS",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "Github Actions"
+    ]
   }
 ]

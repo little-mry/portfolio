@@ -5,26 +5,46 @@
     "Teckenspråk – grundläggande"
   ],
   "programming": [
-    "JavaScript",
-    "TypeScript",
-    "HTML",
-    "CSS",
-    "React",
-    "Redux",
-    "SASS",
-    "Tailwind",
-    "Apollo Client",
-    "Node.js",
-    "Express",
-    "RestAPI",
-    "MongoDB",
-    "PostgreSQL",
-    "DynamoDB",
-    "Git",
-    "Github Actions",
-    "AWS",
-    "GraphQL",
-    "Docker"
+    {
+      "category": "Språk & ramverk",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Redux",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "Tailwind",
+        "Apollo Client",
+        "Node.js",
+        "Express",
+        "GraphQL"
+      ]
+    },
+    {
+      "category": "Teknisk miljö",
+      "items": [
+        "AWS",
+        "Lambda",
+        "Cognito",
+        "APIGateway",
+        "S3",
+        "Serverless",
+        "Docker",
+        "DynamoDB",
+        "MongoDB (noSQL)",
+        "PostgreSQL (SQL)"
+      ]
+    },
+    {
+      "category": "Utvecklingsverktyg",
+      "items": ["Git", "Github Actions", "VS Code", "Figma"]
+    },
+    {
+      "category": "Metodologier",
+      "items": ["Agilt", "Scrum", "Kanban", "CI/CD"]
+    }
   ],
   "journalsystem": ["Take Care", "Parasol"],
   "license": ["B-körkort"]

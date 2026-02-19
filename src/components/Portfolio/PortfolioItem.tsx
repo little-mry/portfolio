@@ -9,8 +9,8 @@ const PortfolioItem = ({
   repoUrl,
 }: PortfolioItemType) => {
   return (
-    <article className="group flex flex-col rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-black/30 backdrop-blur p-4 shadow-sm hover:shadow-md transition-shadow">
-      <div className="aspect-video w-full overflow-hidden rounded-xl bg-neutral-800">
+    <article className="group flex flex-col border border-black/10 dark:border-white/10 bg-white/60 dark:bg-black/30 backdrop-blur p-4 shadow-sm hover:shadow-md transition-shadow">
+      <div className="aspect-video w-full overflow-hidden bg-neutral-800">
         <img
           src={image}
           alt={title}
