@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function ThemeToggle({ className = "" }: { className?: string }) {
+  const { t } = useTranslation();
   const [checked, setChecked] = useState(() =>
     document.documentElement.classList.contains("dark")
   );
@@ -15,14 +17,14 @@ export default function ThemeToggle({ className = "" }: { className?: string }) 
   return (
     <div className={className}>
       <label className="inline-flex items-center gap-1 cursor-pointer select-none">
-        <span className="text-xs sm:text-xs ">Dark mode</span>
+        <span className="text-xs sm:text-xs ">{t("settings.darkMode")}</span>
 
         <input
           type="checkbox"
           className="peer sr-only"
           checked={checked}
           onChange={onChange}
-          aria-label="Växla mörkt läge"
+          aria-label={t("settings.toggleDarkMode")}
         />
 
 

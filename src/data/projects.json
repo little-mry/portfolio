@@ -1,92 +1,37 @@
 [
-    {
-    "title": "Azomo",
-    "role": "Fullstackutvecklare",
+  {
+    "id": "azomo",
     "image": "/azomo_tech.avif",
-    "description": "Del av utvecklingsteamet bakom två produktionssatta SaaS-plattformar på Zocom – Azomo Business och Azomo Education – med en etablerad användarbas. Arbetet omfattade feature-utveckling och buggfixar i både frontend och backend, däribland lösning av komplex datum- och tidshantering med date-fns. Konfigurerade ett GitHub Actions-workflow i Azomo Education som möjliggjorde automatiserad uppsättning av en privat testmiljö i AWS. Plattformarna är byggda på en multi-package-arkitektur med GraphQL och Apollo Client.",
-    "tags": [
-      "TypeScript",
-      "React",
-      "SCSS",
-      "Apollo Client",
-      "GraphQL",
-      "AWS",
-      "S3",
-      "DynamoDB",
-      "Cognito",
-      "Github Actions"
-    ]
+    "tags": ["TypeScript", "React", "SCSS", "Apollo Client", "GraphQL", "AWS", "S3", "DynamoDB", "Cognito", "Github Actions"]
   },
   {
-    "title": "Rendere Visible",
-    "role": "Fullstackutvecklare",
+    "id": "rendereVisible",
     "image": "/rendere.png",
-    "description": "Del av utvecklingsteamet bakom ett analys- och försäljningsverktyg för vindistributörer på Zocom. Jag ledde arbetet med att fullständigt omstrukturera frontenden och implementera nya vyer och funktioner, samt tog ett huvudansvar för optimering av datahämtning och databasprestanda – med mätbara prestandaförbättringar som resultat. Arbetet innefattade även konsolidering av state-hanteringen med TanStack Query, reducering av API-anrop via en batch-endpoint samt omfördelning av affärslogik från frontend till backend för en mer skalbar och underhållbar kodbas.",
-    "tags": [
-      "TypeScript",
-      "React",
-      "auth0",
-      "recharts",
-      "Tanstack",
-      "SCSS",
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "Docker",
-      "Kubernetes",
-      "Github Actions"
-    ]
+    "tags": ["TypeScript", "React", "auth0", "recharts", "Tanstack", "SCSS", "Node.js", "Express", "PostgreSQL", "Docker", "Kubernetes", "Github Actions"]
   },
   {
-    "title": "The Crop Project",
-    "role": "Fullstackutvecklare",
+    "id": "cropProject",
     "image": "/portfolio_dark_4.png",
-    "description": "En fullstack-webbapplikation för trädgårdsplanering, utvecklad från grunden med eget ansvar över hela stacken – från konceptualisering och design i Figma till datamodellering och systemarkitektur. Applikationen låter användare kartlägga sin trädgård, planera och följa upp odlingen säsong för säsong samt få vägledning kring växelbruk och växtkompatibilitet. MongoDB valdes för att datamodellens komplexa relationer passar ett dokumentbaserat schema bättre än en strikt tabellstruktur.",
     "tags": ["TypeScript", "React", "Tailwind", "Node", "MongoDB", "JWT"],
     "repoUrl": "https://github.com/little-mry/the-crop-project"
   },
   {
-    "title": "Yum Yum Gimme Sum",
-    "role": "Frontendutvecklare",
+    "id": "yumYum",
     "image": "/wonton.png",
-    "description": "Mobilanpassad frontend för en foodtruck-app, realiserad utifrån designskiss och externt API. Applikationen hanterar meny, varukorg, orderläggning och kvittovisning i ett sammanhängande användarflöde. Redux Toolkit valdes för state-hantering för att säkerställa ett förutsägbart och delat tillstånd över applikationens vyer.",
     "tags": ["SASS", "TypeScript", "React", "Redux"],
     "liveUrl": "https://yumyum-littlemry.netlify.app/",
     "repoUrl": "https://github.com/little-mry/Maria-ramverk-exam"
   },
   {
-    "title": "Quiztopia",
-    "role": "Backendutvecklare",
+    "id": "quiztopia",
     "image": "/portfolio_quiztopia.png",
-    "description": "Serverless backend-API för en geo-baserad quizapplikation där användare kan skapa platsanknutna quiz, delta i andras och tävla via en leaderboard. Lösningen inkluderar JWT-autentisering med custom Middy-middleware, en IAM-policy med principen om lägsta nödvändiga behörighet samt ett genomtänkt DynamoDB-schema utformat för att hantera quiz, frågor och poängsättning effektivt.",
-    "tags": [
-      "TypeScript",
-      "AWS Lambda",
-      "DynamoDB",
-      "Serverless Framework",
-      "Middy"
-    ],
+    "tags": ["TypeScript", "AWS Lambda", "DynamoDB", "Serverless Framework", "Middy"],
     "repoUrl": "https://github.com/little-mry/quiztopia-exam"
   },
   {
-    "title": "The Meetverse",
-    "role": "Fullstackutvecklare",
+    "id": "meetverse",
     "image": "/portfolio_meetverse.png",
-    "description": "Fullstack-applikation för att upptäcka, anmäla sig till och betygsätta meetups, utvecklad i ett agilt team enligt Scrum. Bidrog inom frontend, backend och driftsättning, samt ansvarade för uppsättning av en CI/CD-pipeline med GitHub Actions – med automatiserad driftsättning av frontend till AWS S3 och backend som Docker-container på Render vid pull request mot main.",
-    "tags": [
-      "TypeScript",
-      "React",
-      "Tailwind",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "JWT",
-      "Docker",
-      "AWS S3",
-      "Github Actions",
-      "Render"
-    ],
+    "tags": ["TypeScript", "React", "Tailwind", "Node.js", "Express", "MongoDB", "JWT", "Docker", "AWS S3", "Github Actions", "Render"],
     "repoUrl": "https://github.com/little-mry/meetverse-FE"
   }
-
 ]
