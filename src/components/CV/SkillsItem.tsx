@@ -1,4 +1,4 @@
-import skills from "../../../public/skills.json"
+import skills from "../../data/skills.json"
 
 const SkillItem = () => {
   return (

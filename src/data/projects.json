@@ -1,0 +1,37 @@
+[
+  {
+    "id": "azomo",
+    "image": "/azomo_tech.avif",
+    "tags": ["TypeScript", "React", "SCSS", "Apollo Client", "GraphQL", "AWS", "S3", "DynamoDB", "Cognito", "Github Actions"]
+  },
+  {
+    "id": "rendereVisible",
+    "image": "/rendere.png",
+    "tags": ["TypeScript", "React", "auth0", "recharts", "Tanstack", "SCSS", "Node.js", "Express", "PostgreSQL", "Docker", "Kubernetes", "Github Actions"]
+  },
+  {
+    "id": "cropProject",
+    "image": "/portfolio_dark_4.png",
+    "tags": ["TypeScript", "React", "Tailwind", "Node", "MongoDB", "JWT"],
+    "repoUrl": "https://github.com/little-mry/the-crop-project"
+  },
+  {
+    "id": "yumYum",
+    "image": "/wonton.png",
+    "tags": ["SASS", "TypeScript", "React", "Redux"],
+    "liveUrl": "https://yumyum-littlemry.netlify.app/",
+    "repoUrl": "https://github.com/little-mry/Maria-ramverk-exam"
+  },
+  {
+    "id": "quiztopia",
+    "image": "/portfolio_quiztopia.png",
+    "tags": ["TypeScript", "AWS Lambda", "DynamoDB", "Serverless Framework", "Middy"],
+    "repoUrl": "https://github.com/little-mry/quiztopia-exam"
+  },
+  {
+    "id": "meetverse",
+    "image": "/portfolio_meetverse.png",
+    "tags": ["TypeScript", "React", "Tailwind", "Node.js", "Express", "MongoDB", "JWT", "Docker", "AWS S3", "Github Actions", "Render"],
+    "repoUrl": "https://github.com/little-mry/meetverse-FE"
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "techstack": "Tech stack",
+    "projects": "Projects",
+    "about": "About me",
+    "contact": "Contact",
+    "home": "Home",
+    "cv": "CV",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainMenu": "Main menu"
+  },
+  "header": {
+    "openSettings": "Open settings"
+  },
+  "settings": {
+    "darkMode": "Dark mode",
+    "toggleDarkMode": "Toggle dark mode"
+  },
+  "home": {
+    "subtitle": "Here I am!",
+    "description": "I'm an aspiring JavaScript developer with a strong sense of user needs, communication and group dynamics. With a background as a speech-language pathologist and a strong engagement with the world around us, I am passionate about creating digital tools that are accessible and can make a real difference."
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "intro": "I live outside Gnesta in a small cottage together with my dog Ebbot. Even though I live a bit off-grid, I'm engaged in the world around me – with a great interest in circular economy, climate issues, animal rights and human rights. In my free time I garden, work on one of my hundreds of DIY projects, or wander aimlessly in the forest (hopefully finding some mushrooms along the way).",
+    "backgroundTitle": "Background",
+    "background": [
+      "I have always been curious about how things work and how they can be improved. Before I trained as a speech-language pathologist, I worked in education and care – with children at preschool and with adults with disabilities. This gave me an early understanding of how different people's needs look and how important interaction is.",
+      "My training as a speech-language pathologist took me into clinical work in healthcare and rehabilitation for over six years, with patients with acquired brain injuries, speech, language and swallowing difficulties, as well as fitting and prescribing communication aids. In parallel, I led working groups, was a guest lecturer at the speech-language pathology program, and worked voluntarily with children and young people in vulnerable situations.",
+      "It was in meetings with people with linguistic and cognitive impairments that something clicked – I saw how much digital tools meant, and how often they fell short. Not because the technology was lacking, but because it was rarely designed with real users in mind. That insight sparked a desire to contribute to creating more accessibility – and that is the developer I want to be."
+    ],
+    "contributionTitle": "What I bring",
+    "contribution": [
+      "My background gives me a perspective that is difficult to acquire otherwise. I have a deep understanding of user perspective and accessibility, not as buzzwords but as something I worked with clinically. I am used to meeting people with different conditions and communicating clearly regardless of the audience – which makes me a good link between tech and business.",
+      "In a team I'm equally comfortable in a leading or supporting role. I like environments where people collaborate, share knowledge and lift each other up – and that is the kind of culture I want to contribute to."
+    ]
+  },
+  "skillset": {
+    "title": "TECH STACK",
+    "category_0": "Languages & frameworks",
+    "category_1": "Technical environment",
+    "category_2": "Development tools",
+    "category_3": "Methodologies"
+  },
+  "portfolio": {
+    "title": "PROJECTS I'VE BUILT",
+    "live": "Live →",
+    "repo": "Repo →",
+    "projects": {
+      "cropProject": {
+        "title": "The Crop Project",
+        "role": "Fullstack developer",
+        "description": "A full-stack web application for garden planning, built from scratch with sole responsibility over the entire stack – from conceptualization and design in Figma to data modeling and system architecture. The application lets users map their garden, plan and track their crops season by season, and receive guidance on crop rotation and plant compatibility. MongoDB was chosen because the complex relationships in the data model fit a document-based schema better than a strict table structure."
+      },
+      "yumYum": {
+        "title": "Yum Yum Gimme Sum",
+        "role": "Frontend developer",
+        "description": "A mobile-adapted frontend for a food truck app, built from a design sketch and external API. The application handles menu, shopping cart, order placement and receipt display in a coherent user flow. Redux Toolkit was chosen for state management to ensure a predictable and shared state across the application's views."
+      },
+      "quiztopia": {
+        "title": "Quiztopia",
+        "role": "Backend developer",
+        "description": "A serverless backend API for a geo-based quiz application where users can create location-linked quizzes, participate in others' and compete via a leaderboard. The solution includes JWT authentication with custom Middy middleware, an IAM policy with the principle of least privilege, and a well-thought-out DynamoDB schema designed to efficiently handle quizzes, questions and scoring."
+      },
+      "meetverse": {
+        "title": "The Meetverse",
+        "role": "Fullstack developer",
+        "description": "A full-stack application for discovering, signing up for and rating meetups, developed in an agile team following Scrum. Contributed to frontend, backend and deployment, and was responsible for setting up a CI/CD pipeline with GitHub Actions – with automated deployment of frontend to AWS S3 and backend as a Docker container on Render on pull request to main."
+      },
+      "azomo": {
+        "title": "Azomo",
+        "role": "Fullstack developer",
+        "description": "Part of the development team behind two production SaaS platforms at Zocom – Azomo Business and Azomo Education – with an established user base. Work included feature development and bug fixes in both frontend and backend, including solving complex date and time handling with date-fns. Configured a GitHub Actions workflow in Azomo Education that enabled automated setup of a private test environment in AWS."
+      },
+      "rendereVisible": {
+        "title": "Rendere Visible",
+        "role": "Fullstack developer",
+        "description": "Part of the development team behind an analysis and sales tool for wine distributors at Zocom. I led the work to completely restructure the frontend and implement new views and features, and took primary responsibility for optimizing data fetching and database performance – with measurable performance improvements as a result."
+      }
+    }
+  },
+  "contact": {
+    "title": "CONTACT",
+    "callMe": "Call me",
+    "emailMe": "Email me"
+  },
+  "footer": {
+    "copyright": "© 2026 Maria Kjellholm"
+  }
+}

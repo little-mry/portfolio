@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "techstack": "Tech stack",
+    "projects": "Projekt",
+    "about": "Om mig",
+    "contact": "Kontakt",
+    "home": "Hem",
+    "cv": "CV",
+    "openMenu": "Öppna meny",
+    "closeMenu": "Stäng meny",
+    "mainMenu": "Huvudmeny"
+  },
+  "header": {
+    "openSettings": "Öppna inställningar"
+  },
+  "settings": {
+    "darkMode": "Dark mode",
+    "toggleDarkMode": "Växla mörkt läge"
+  },
+  "home": {
+    "subtitle": "Här har ni mig!",
+    "description": "Jag är en blivande Javascriptutvecklare med en stark känsla för användarbehov, kommunikation och gruppdynamik. Med en bakgrund som logoped och starkt engagemang för vår omvärld, brinner jag för att skapa digitala verktyg som är tillgängliga och kan göra skillnad på riktigt."
+  },
+  "about": {
+    "title": "OM MIG",
+    "intro": "Jag bor utanför Gnesta i ett litet torp tillsammans med min hund Ebbot. Även om jag lever lite off-grid är jag engagerad i omvärlden – med stort intresse för cirkulär ekonomi, klimatfrågor, djurrätt och mänskliga rättigheter. På fritiden påtar jag i trädgården, håller på med något av mina hundratals diy-projekt eller vandrar planlöst runt i skogen (och hittar förhoppningsvis lite svamp på vägen).",
+    "backgroundTitle": "Bakgrund",
+    "background": [
+      "Jag har alltid varit nyfiken på hur saker fungerar och hur de kan göras bättre. Innan jag utbildade mig till logoped arbetade jag med pedagogik och omsorg – med barn på förskola och med vuxna med funktionsnedsättning. Det gav mig tidigt en förståelse för hur olika människors behov ser ut och hur viktigt bemötande är.",
+      "Logopedutbildningen tog mig sedan in i kliniskt arbete inom vård och rehabilitering i över sex år, med patienter med förvärvad hjärnskada, tal-, språk- och sväljsvårigheter, samt utprovning och förskrivning av kommunikationshjälpmedel. Parallellt ledde jag arbetsgrupper, var gästföreläsare på logopedprogrammet och arbetade ideellt med barn och unga i utsatta situationer.",
+      "Det var i mötet med personer med språkliga och kognitiva nedsättningar som något föll på plats – jag såg hur mycket digitala verktyg betydde, och hur ofta de föll kort. Inte för att tekniken saknades, utan för att den sällan var utformad med riktiga användare i åtanke. Den insikten väckte en önskan om att själv bidra till att skapa mer tillgänglighet – och det är den utvecklaren jag vill vara."
+    ],
+    "contributionTitle": "Vad jag bidrar med",
+    "contribution": [
+      "Min bakgrund ger mig ett perspektiv som är svårt att skaffa sig på annat sätt. Jag har djup förståelse för användarperspektiv och tillgänglighet, inte som buzzwords utan som något jag arbetat med kliniskt. Jag är van att möta människor med olika förutsättningar och kommunicera tydligt oavsett mottagare – vilket gör mig till en bra länk mellan tech och verksamhet.",
+      "I ett team trivs jag lika bra i ledande som stödjande roll. Jag gillar miljöer där man samarbetar, delar kunskap och lyfter varandra – och det är den typen av kultur jag vill bidra till."
+    ]
+  },
+  "skillset": {
+    "title": "TECH STACK",
+    "category_0": "Språk & ramverk",
+    "category_1": "Teknisk miljö",
+    "category_2": "Utvecklingsverktyg",
+    "category_3": "Metodologier"
+  },
+  "portfolio": {
+    "title": "PROJEKT JAG BYGGT",
+    "live": "Live →",
+    "repo": "Repo →",
+    "projects": {
+      "cropProject": {
+        "title": "The Crop Project",
+        "role": "Fullstackutvecklare",
+        "description": "En fullstack-webbapplikation för trädgårdsplanering, utvecklad från grunden med eget ansvar över hela stacken – från konceptualisering och design i Figma till datamodellering och systemarkitektur. Applikationen låter användare kartlägga sin trädgård, planera och följa upp odlingen säsong för säsong samt få vägledning kring växelbruk och växtkompatibilitet. MongoDB valdes för att datamodellens komplexa relationer passar ett dokumentbaserat schema bättre än en strikt tabellstruktur."
+      },
+      "yumYum": {
+        "title": "Yum Yum Gimme Sum",
+        "role": "Frontendutvecklare",
+        "description": "Mobilanpassad frontend för en foodtruck-app, realiserad utifrån designskiss och externt API. Applikationen hanterar meny, varukorg, orderläggning och kvittovisning i ett sammanhängande användarflöde. Redux Toolkit valdes för state-hantering för att säkerställa ett förutsägbart och delat tillstånd över applikationens vyer."
+      },
+      "quiztopia": {
+        "title": "Quiztopia",
+        "role": "Backendutvecklare",
+        "description": "Serverless backend-API för en geo-baserad quizapplikation där användare kan skapa platsanknutna quiz, delta i andras och tävla via en leaderboard. Lösningen inkluderar JWT-autentisering med custom Middy-middleware, en IAM-policy med principen om lägsta nödvändiga behörighet samt ett genomtänkt DynamoDB-schema utformat för att hantera quiz, frågor och poängsättning effektivt."
+      },
+      "meetverse": {
+        "title": "The Meetverse",
+        "role": "Fullstackutvecklare",
+        "description": "Fullstack-applikation för att upptäcka, anmäla sig till och betygsätta meetups, utvecklad i ett agilt team enligt Scrum. Bidrog inom frontend, backend och driftsättning, samt ansvarade för uppsättning av en CI/CD-pipeline med GitHub Actions – med automatiserad driftsättning av frontend till AWS S3 och backend som Docker-container på Render vid pull request mot main."
+      },
+      "azomo": {
+        "title": "Azomo",
+        "role": "Fullstackutvecklare",
+        "description": "Del av utvecklingsteamet bakom två produktionssatta SaaS-plattformar på Zocom – Azomo Business och Azomo Education – med en etablerad användarbas. Arbetet omfattade feature-utveckling och buggfixar i både frontend och backend, däribland lösning av komplex datum- och tidshantering med date-fns. Konfigurerade ett GitHub Actions-workflow i Azomo Education som möjliggjorde automatiserad uppsättning av en privat testmiljö i AWS."
+      },
+      "rendereVisible": {
+        "title": "Rendere Visible",
+        "role": "Fullstackutvecklare",
+        "description": "Del av utvecklingsteamet bakom ett analys- och försäljningsverktyg för vindistributörer på Zocom. Jag ledde arbetet med att fullständigt omstrukturera frontenden och implementera nya vyer och funktioner, samt tog ett huvudansvar för optimering av datahämtning och databasprestanda – med mätbara prestandaförbättringar som resultat."
+      }
+    }
+  },
+  "contact": {
+    "title": "KONTAKT",
+    "callMe": "Ring mig",
+    "emailMe": "Maila mig"
+  },
+  "footer": {
+    "copyright": "© 2026 Maria Kjellholm"
+  }
+}

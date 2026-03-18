@@ -4,7 +4,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Footer = () => {
   return (
-    <section className="relative flex flex-col md:flex-row md:justify-end items-center md:items-end gap-2  p-2">
+    <section className="max-w-[80vw] mx-auto relative flex flex-col md:flex-row md:justify-end items-center md:items-center gap-4 py-6 px-4">
       <article className="flex gap-3">
         <a
           href="https://github.com/little-mry"
@@ -14,6 +14,7 @@ const Footer = () => {
           className="inline-flex items-center justify-center h-8 w-8 border border-zinc-900 dark:border-zinc-400 rounded-md"
         >
           <FontAwesomeIcon
+            aria-hidden="true"
             className="text-zinc-900 dark:text-zinc-400 "
             icon={faGithub}
           />
@@ -26,6 +27,7 @@ const Footer = () => {
           className="inline-flex items-center justify-center h-8 w-8 border border-zinc-900 dark:border-zinc-400 rounded-md"
         >
           <FontAwesomeIcon
+            aria-hidden="true"
             className="text-zinc-900 dark:text-zinc-400"
             icon={faLinkedin}
           />
@@ -36,13 +38,14 @@ const Footer = () => {
           className="inline-flex items-center justify-center h-8 w-8 border border-zinc-900 dark:border-zinc-400 rounded-md"
         >
           <FontAwesomeIcon
+            aria-hidden="true"
             className="text-zinc-900 dark:text-zinc-400"
             icon={faEnvelope}
           />
         </a>
       </article>
       <p className=" text-sm text-zinc-900 dark:text-zinc-400">
-        &copy; 2025 Maria Kjellholm
+        &copy; 2026 Maria Kjellholm
       </p>
     </section>
   );
