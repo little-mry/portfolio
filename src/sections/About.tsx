@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import AboutImg from "../assets/maria-digging-1.jpg";
+import AboutImg from "../assets/maria-digging-1.webp";
 
 const About = () => {
   const { t } = useTranslation();
@@ -36,8 +36,8 @@ const About = () => {
           <img
             src={AboutImg}
             alt="Image of Maria digging in the garden"
-            width={800}
-            height={600}
+            width={600}
+            height={400}
             loading="lazy"
             className="w-full h-auto rounded-md dark:border-none ml-auto"
           />
