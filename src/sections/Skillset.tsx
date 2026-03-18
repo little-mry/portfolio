@@ -2,31 +2,35 @@ import skills from "../data/skills.json";
 
 const Skillset = () => {
   return (
-    <>
-      <h2 className="mb-6 text-4xl font-semibold text-center">Tech Stack</h2>
-      <section className="flex flex-wrap gap-6 justify-center px-4 md:px-10 mx-auto">
-        {skills.programming.map((group) => (
-          <div
-            key={group.category}
-            className=" flex-1 min-w-64 rounded-2xl bg-white dark:bg-zinc-800 p-5 shadow-sm"
-          >
-            <h3 className="text-lg font-semibold mb-3 text-zinc-500 dark:text-zinc-400 uppercase tracking-wide">
-              {group.category}
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {group.items.map((skill) => (
-                <span
-                  key={skill}
-                  className="px-3 py-1 rounded-lg bg-slate-100 dark:bg-zinc-700 text-md font-medium"
-                >
-                  {skill}
-                </span>
-              ))}
+    <section className="w-full">
+      <div className="max-w-[80vw] mx-auto min-h-[90vh] py-8">
+        <h2 className="mb-6 lg:mb-16 text-5xl font-regular flex items-baseline gap-4 after:content-[''] after:flex-1 after:h-px after:bg-current">
+          TECH STACK
+        </h2>
+        <section className="flex flex-row gap-6 w-full px-4">
+          {skills.programming.map((group) => (
+            <div
+              key={group.category}
+              className="flex-1 basis-0 min-w-0 rounded-md bg-stone-200 dark:bg-zinc-800 p-5"
+            >
+              <h3 className="text-xl font-bold uppercase mb-2">
+                {group.category}
+              </h3>
+              <div className="flex flex-col gap-2 my-3 justify-center">
+                {group.items.map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1 rounded-md  text-lg font-medium"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
-      </section>
-    </>
+          ))}
+        </section>
+      </div>
+    </section>
   );
 };
 

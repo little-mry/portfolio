@@ -1,7 +1,10 @@
 import { useState } from "react";
 
 export default function ThemeToggle({ className = "" }: { className?: string }) {
- const [checked, setChecked] = useState(false);
+  const [checked, setChecked] = useState(() =>
+    document.documentElement.classList.contains("dark")
+  );
+
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const v = e.target.checked;
     setChecked(v);
@@ -22,7 +25,7 @@ export default function ThemeToggle({ className = "" }: { className?: string }) 
           aria-label="Växla mörkt läge"
         />
 
-        {/* Track + knob (knoppen som pseudo-element) */}
+
         <div
           className="
           relative  rounded-full transition-colors

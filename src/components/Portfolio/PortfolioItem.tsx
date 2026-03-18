@@ -3,67 +3,60 @@ import type { PortfolioItem as PortfolioItemType } from "../../types/PortfolioIt
 const PortfolioItem = ({
   title,
   image,
+  role,
   description,
   tags = [],
   liveUrl,
   repoUrl,
 }: PortfolioItemType) => {
   return (
-    <article className="group flex flex-col border border-black/10 dark:border-white/10 bg-white/60 dark:bg-black/30 backdrop-blur p-4 shadow-sm hover:shadow-md transition-shadow">
-      <div className="aspect-video w-full overflow-hidden bg-neutral-800">
+    <article className="flex flex-col mb-14 md:flex-row h-[85vh] shadow-xl shadow-zinc-900/30 bg-white dark:bg-zinc-800 shadow-md overflow-hidden">
+      <div className="w-full md:w-[50%] aspect-video md:aspect-auto shrink-0">
         <img
           src={image}
           alt={title}
           loading="lazy"
-          className="h-full w-full object-contain group-hover:scale-[1.01] transition-transform duration-300"
+          className="w-full h-full object-cover"
         />
       </div>
-      <header className="mt-4">
-        <h3 className="text-xl font-bold">{title}</h3>
+
+      <div className="flex-1 p-6 md:p-8 flex flex-col gap-3">
+        <div>
+          <h3 className="text-xl md:text-2xl font-bold uppercase">{title}</h3>
+          {role && (
+            <p className="text-sm italic text-zinc-500 dark:text-zinc-400">{role}</p>
+          )}
+        </div>
+
         {description && (
-          <p className="mt-1 text-md font-medium text-black/70 dark:text-white/70">
+          <p className="text-sm md:text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
             {description}
           </p>
         )}
-      </header>
 
-      {tags.length > 0 && (
-        <ul className="mt-3 flex flex-wrap gap-2 font-medium">
-          {tags.map((t) => (
-            <li
-              key={t}
-              className="text-sm  px-2 py-1 rounded-full border border-black/10 dark:border-white/10"
-            >
-              {t}
-            </li>
-          ))}
-        </ul>
-      )}
-
-      {(liveUrl || repoUrl) && (
-        <div className="mt-auto pt-4 flex gap-2 font-medium">
-          {liveUrl && (
-            <a
-              href={liveUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg px-3 py-2 border border-black/10 dark:border-white/10 hover:bg-black/10 dark:hover:bg-white/10"
-            >
-              Live
-            </a>
+        <div className="mt-auto flex flex-col gap-2">
+          {tags.length > 0 && (
+            <p className="text-xs md:text-sm text-zinc-500 dark:text-zinc-400">
+              {tags.join(", ")}
+            </p>
           )}
-          {repoUrl && (
-            <a
-              href={repoUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg px-3 py-2 border border-black/10 dark:border-white/10 hover:bg-black/10 dark:hover:bg-white/10"
-            >
-              Repo
-            </a>
+
+          {(liveUrl || repoUrl) && (
+            <div className="flex gap-4">
+              {liveUrl && (
+                <a href={liveUrl} target="_blank" rel="noreferrer" className="text-sm font-medium hover:underline">
+                  Live →
+                </a>
+              )}
+              {repoUrl && (
+                <a href={repoUrl} target="_blank" rel="noreferrer" className="text-sm font-medium hover:underline">
+                  Repo →
+                </a>
+              )}
+            </div>
           )}
         </div>
-      )}
+      </div>
     </article>
   );
 };

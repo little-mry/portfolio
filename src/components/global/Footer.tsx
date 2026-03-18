@@ -4,7 +4,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Footer = () => {
   return (
-    <section className="relative flex flex-col md:flex-row md:justify-end items-center md:items-end gap-2  p-2">
+    <section className="max-w-[80vw] mx-auto relative flex flex-col md:flex-row md:justify-end items-center md:items-center gap-4 py-6 px-4">
       <article className="flex gap-3">
         <a
           href="https://github.com/little-mry"
@@ -42,7 +42,7 @@ const Footer = () => {
         </a>
       </article>
       <p className=" text-sm text-zinc-900 dark:text-zinc-400">
-        &copy; 2025 Maria Kjellholm
+        &copy; 2026 Maria Kjellholm
       </p>
     </section>
   );

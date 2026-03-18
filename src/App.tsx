@@ -5,40 +5,39 @@ import Footer from "./components/global/Footer";
 import Home from "./sections/Home";
 import About from "./sections/About";
 import Portfolio from "./sections/Portfolio";
-import CV from "./sections/CV";
 import Contact from "./sections/Contact";
 import Skillset from "./sections/Skillset";
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col text-zinc-900 dark:bg-zinc-900 dark:text-zinc-400">
+    <div className="min-h-screen flex flex-col justify-center text-zinc-900 bg-zinc-100 dark:bg-zinc-900 dark:text-stone-200">
       
-      <Container as="header" className="pt-6 mt-10 md:mt-5">
+      <Container as="header" className="w-full pt-4 sticky top-0 z-20 bg-zinc-100/80 dark:bg-zinc-900/80 backdrop-blur-sm">
         <Header />
       </Container>
 
-      <Container as="main" className="flex-1 py-4">
+      <Container as="main" className="flex-1">
         <section id="home" className="scroll-mt-32">
           <Home />
         </section>
 
 
-        <section id="skillset" className="scroll-mt-32 mt-16">
+        <section id="skillset" className="scroll-mt-16 mt-16">
           <Skillset />
         </section>
 
-        <section id="portfolio" className="scroll-mt-32 mt-16">
+        <section id="portfolio" className="scroll-mt-16 mt-16">
           <Portfolio />
         </section>
-        <section id="about" className="scroll-mt-32 mt-16">
+        <section id="about" className="scroll-mt-16 mt-16">
           <About />
         </section>
 
-        <section id="cv" className="scroll-mt-32 mt-16">
+       {/*  <section id="cv" className="scroll-mt-8 mt-16">
           <CV />
-        </section>
+        </section> */}
 
-        <section id="contact" className="scroll-mt-32 mt-16">
+        <section id="contact" className="scroll-mt-16 mt-16">
           <Contact />
         </section>
       </Container>

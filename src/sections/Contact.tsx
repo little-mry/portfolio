@@ -2,10 +2,14 @@ import ContactCard from "../components/Contact/ContactCard";
 
 const Contact = () => {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold mb-4">Kontakt</h2>
-      <ContactCard />
-    </div>
+    <section className="w-full">
+      <div className="max-w-[80vw] mx-auto px-4 py-8">
+        <h2 className="mb-6 lg:mb-16 text-5xl font-regular flex items-baseline gap-4 after:content-[''] after:flex-1 after:h-px after:bg-current">
+          KONTAKT
+        </h2>
+        <ContactCard />
+      </div>
+    </section>
   );
 };
 

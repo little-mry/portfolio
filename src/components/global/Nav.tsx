@@ -37,24 +37,25 @@ const Nav = () => {
         <ul className="flex items-center gap-10">
           <li>
             <button className="hover:underline" onClick={() => scrollTo("skillset")}>
-              Skillset 
+              Tech stack 
             </button>
             </li>
+              <li>
+            <button className="hover:underline" onClick={() => scrollTo("portfolio")}>
+              Projekt
+            </button>
+          </li>
             <li>
             <button className="hover:underline" onClick={() => scrollTo("about")}>
               Om mig
             </button>
           </li>
-          <li>
-            <button className="hover:underline" onClick={() => scrollTo("portfolio")}>
-              Portfolio
-            </button>
-          </li>
-          <li>
+        
+   {/*        <li>
             <button className="hover:underline" onClick={() => scrollTo("cv")}>
               CV
             </button>
-          </li>
+          </li> */}
           <li>
             <button className="hover:underline" onClick={() => scrollTo("contact")}>
               Kontakt
