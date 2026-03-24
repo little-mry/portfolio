@@ -48,17 +48,24 @@ const Header = () => {
           className="inline-flex items-center justify-end h-9 w-9"
           onClick={() => setIsSettingsOpen((v) => !v)}
         >
-          <FontAwesomeIcon className="text-gray-700 dark:text-zinc-200" icon={faGear} />
+          <FontAwesomeIcon className="text-gray-700 dark:text-zinc-200 hover:text-orange-300 transition-colors" icon={faGear} />
         </button>
         {isSettingsOpen && (
-          <div id="settings-menu" role="menu" className="absolute right-0 mt-2 p-3 w-max bg-white dark:bg-zinc-800 rounded shadow-lg z-10 flex flex-col gap-3">
-            <ThemeToggle />
-            <button
-              onClick={toggleLanguage}
-              className="text-sm font-medium text-left hover:underline"
-            >
-              {i18n.language === "sv" ? "English" : "Svenska"}
-            </button>
+          <div id="settings-menu" role="menu" className="absolute right-0 mt-2 p-4 w-48 bg-white dark:bg-zinc-800 rounded-lg shadow-lg z-10 flex flex-col gap-4">
+            <div className="flex items-center justify-between">
+              <span className="text-sm">{t("settings.darkMode")}</span>
+              <ThemeToggle />
+            </div>
+            <hr className="border-zinc-200 dark:border-zinc-700" />
+            <div className="flex items-center justify-between">
+              <span className="text-sm">{t("settings.language")}</span>
+              <button
+                onClick={toggleLanguage}
+                className="text-sm font-medium hover:text-orange-500 transition-colors"
+              >
+                {i18n.language === "sv" ? "EN" : "SV"}
+              </button>
+            </div>
           </div>
         )}
       </div>

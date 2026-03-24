@@ -16,9 +16,7 @@ export default function ThemeToggle({ className = "" }: { className?: string }) 
   
   return (
     <div className={className}>
-      <label className="inline-flex items-center gap-1 cursor-pointer select-none">
-        <span className="text-xs sm:text-xs ">{t("settings.darkMode")}</span>
-
+      <label className="inline-flex items-center cursor-pointer select-none">
         <input
           type="checkbox"
           className="peer sr-only"

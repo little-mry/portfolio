@@ -15,7 +15,8 @@
   },
   "settings": {
     "darkMode": "Dark mode",
-    "toggleDarkMode": "Toggle dark mode"
+    "toggleDarkMode": "Toggle dark mode",
+    "language": "Language"
   },
   "home": {
     "subtitle": "Here I am!",
@@ -82,6 +83,8 @@
   },
   "contact": {
     "title": "CONTACT",
+    "cta": "I'm open to new assignments!",
+    "intro": "Whether you just want to chat, have a fun idea, or a project you'd like me to be part of — don't hesitate to reach out!",
     "callMe": "Call me",
     "emailMe": "Email me"
   },

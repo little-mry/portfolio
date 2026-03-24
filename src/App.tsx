@@ -1,6 +1,5 @@
 import Container from "./components/global/Container";
 import Header from "./components/global/Header";
-import Footer from "./components/global/Footer";
 
 import Home from "./sections/Home";
 import About from "./sections/About";
@@ -48,9 +47,6 @@ function App() {
         </section>
       </Container>
 
-      <Container as="footer" className="py-6">
-        <Footer />
-      </Container>
     </div>
   );
 }

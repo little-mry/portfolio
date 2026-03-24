@@ -9,8 +9,8 @@ const PortfolioItem = ({ id, image, tags = [], liveUrl, repoUrl }: PortfolioItem
 
   return (
     <article className="flex flex-col md:flex-row rounded-xl bg-white dark:bg-zinc-800 shadow-md overflow-hidden">
-      <div className="w-full md:w-2/5 aspect-video md:aspect-auto shrink-0">
-        <img src={image} alt={title} loading="lazy" className="w-full h-full object-cover" />
+      <div className="w-full md:w-2/5  h-60 md:h-auto  shrink-0">
+        <img src={image} alt={title} loading="lazy" className="w-full h-full object-cover object-top" />
       </div>
 
       <div className="flex-1 p-6 md:p-8 flex flex-col gap-3">
