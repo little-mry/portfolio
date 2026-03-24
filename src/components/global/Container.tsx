@@ -11,8 +11,7 @@ export default function Container<E extends ElementType = "div">({
   ...rest
 }: Props<E>) {
   const Tag = (as || "div") as ElementType;
-  const base = "";
   return (
-    <Tag className={[base, className].filter(Boolean).join(" ")} {...rest} />
+    <Tag className={[className].filter(Boolean).join(" ")} {...rest} />
   );
 }

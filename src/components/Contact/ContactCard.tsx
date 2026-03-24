@@ -1,14 +1,9 @@
-import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSquarePhone, faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const ContactCard = () => {
-  const { t } = useTranslation();
-
   return (
-    <>
       <article className="flex gap-5 ">
         <a
           href="https://github.com/little-mry"
@@ -48,7 +43,6 @@ const ContactCard = () => {
           />
         </a>
       </article>
-    </>
   );
 };
 
