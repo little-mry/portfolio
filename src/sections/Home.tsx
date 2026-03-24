@@ -31,7 +31,7 @@ const Home = () => {
           </article>
         </div>
 
-        <article className="flex items-end self-end lg:translate-y-[13%] max-w-xs mx-auto lg:max-w-xl lg:mx-auto">
+        <article className="flex items-end self-end lg:translate-y-[12%] max-w-sm mx-auto lg:max-w-xl lg:mx-auto">
           <img
             src={HeroImg}
             alt="Image of Maria, a person with long blond hair and glasses, smiling"

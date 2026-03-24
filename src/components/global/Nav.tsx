@@ -41,10 +41,10 @@ const Nav = () => {
 
       <nav aria-label={t("nav.mainMenu")} className="hidden md:block">
         <ul className="flex items-center gap-10">
-          <li><button className="hover:underline" onClick={() => scrollTo("skillset")}>{t("nav.techstack")}</button></li>
-          <li><button className="hover:underline" onClick={() => scrollTo("portfolio")}>{t("nav.projects")}</button></li>
-          <li><button className="hover:underline" onClick={() => scrollTo("about")}>{t("nav.about")}</button></li>
-          <li><button className="hover:underline" onClick={() => scrollTo("contact")}>{t("nav.contact")}</button></li>
+          <li><button onClick={() => scrollTo("skillset")}><span className="px-0.5 hover:[background-image:linear-gradient(to_top,#fdba74_50%,transparent_50%)]">{t("nav.techstack")}</span></button></li>
+          <li><button onClick={() => scrollTo("portfolio")}><span className="px-0.5 hover:[background-image:linear-gradient(to_top,#fdba74_50%,transparent_50%)]">{t("nav.projects")}</span></button></li>
+          <li><button onClick={() => scrollTo("about")}><span className="px-0.5 hover:[background-image:linear-gradient(to_top,#fdba74_50%,transparent_50%)]">{t("nav.about")}</span></button></li>
+          <li><button onClick={() => scrollTo("contact")}><span className="px-0.5 hover:[background-image:linear-gradient(to_top,#fdba74_50%,transparent_50%)]">{t("nav.contact")}</span></button></li>
         </ul>
       </nav>
 
