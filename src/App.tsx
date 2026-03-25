@@ -27,7 +27,7 @@ function App() {
         </section>
 
 
-        <section id="skillset" className="scroll-mt-16 mt-16">
+        <section id="skillset" className="scroll-mt-16 mt-16 md:mt-32">
           <Skillset />
         </section>
 
