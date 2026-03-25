@@ -4,7 +4,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const ContactCard = () => {
   return (
-      <article className="flex gap-5 ">
+      <article className="flex gap-5 justify-center">
         <a
           href="https://github.com/little-mry"
           target="_blank"
