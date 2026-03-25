@@ -12,7 +12,7 @@ const Skillset = () => {
         </h2>
         <section className="flex flex-col md:flex-row gap-6 w-full ">
           {skills.programming.map((group, index) => (
-            <div key={group.category} className="flex-1 basis-0 min-w-0 rounded-md bg-stone-200 dark:bg-zinc-800 p-6 md:p-8">
+            <div key={group.category} className="flex-1 basis-0 min-w-0 rounded-md bg-orange-100 dark:bg-zinc-800 p-6 md:p-8">
               <h3 className="text-xl font-bold uppercase mb-2">
                 {t(`skillset.category_${index}`)}
               </h3>

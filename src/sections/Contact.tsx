@@ -7,19 +7,12 @@ const Contact = () => {
   return (
     <section className="w-full">
       <div className="max-w-[80vw] mx-auto pb-8">
-        <h2 className="mb-6 lg:mb-16 text-5xl font-regular flex items-baseline gap-4 after:content-[''] after:flex-1 after:h-px after:bg-current">
-          {t("contact.title")}
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div>
-            <p className="text-2xl font-bold leading-tight mb-6">
-              {t("contact.cta")}
-            </p>
-            <p className="text-lg text-zinc-600 dark:text-zinc-400">
-              {t("contact.intro")}
-            </p>
+        <div className="flex justify-center">
+          <div className="w-full max-w-xl bg-orange-100 dark:bg-stone-600 rounded-2xl p-10 flex flex-col gap-6">
+            <p className="text-2xl font-bold text-center">{t("contact.cta")}</p>
+            <p className="text-zinc-600 dark:text-zinc-300 text-center">{t("contact.intro")}</p>
+            <ContactCard />
           </div>
-          <ContactCard />
         </div>
       </div>
     </section>
